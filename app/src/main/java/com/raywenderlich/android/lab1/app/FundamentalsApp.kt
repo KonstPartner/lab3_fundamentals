@@ -1,5 +1,6 @@
 package com.raywenderlich.android.lab1.app
 
+import ProgressIndicatorScreen
 import androidx.compose.animation.Crossfade
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface

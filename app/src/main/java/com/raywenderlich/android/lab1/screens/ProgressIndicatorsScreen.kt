@@ -1,4 +1,8 @@
-package com.raywenderlich.android.lab1.screens
+import androidx.compose.material.CircularProgressIndicator
+import androidx.compose.material.LinearProgressIndicator
+import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.unit.dp
+
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,7 +22,11 @@ fun ProgressIndicatorScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        //TODO add your code here
+        CircularProgressIndicator(
+            color = colorResource(id = androidx.compose.ui.R.color.vector_tint_theme_color),
+            strokeWidth = 5.dp
+        )
+        LinearProgressIndicator(progress = 0.5f)
     }
 
     BackButtonHandler {
