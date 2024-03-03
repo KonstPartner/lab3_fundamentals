@@ -21,3 +21,6 @@ fun MyScaffold() {}
 
 @Composable
 fun MyTopAppBar(scaffoldState: ScaffoldState) {}
+
+@Composable
+fun MyBottomAppBar() {}
